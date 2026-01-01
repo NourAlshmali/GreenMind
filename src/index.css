@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* إخفاء السكرول مع بقاء السكرول شغّال */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE و Edge */
+  scrollbar-width: none; /* Firefox */
+}

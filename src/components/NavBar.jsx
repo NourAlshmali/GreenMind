@@ -21,7 +21,7 @@ const NavBar = () => {
           GREEN MIND
         </p>
         <span className="flex right-0 pr-[7%] w-[78%] pt-[2.66%] md:pt-[6%] lg:pt-[2.5%] absolute justify-between">
-          <ul className="flex lg:gap-10 sm:gap-5 cursor-pointer">
+          <ul className="flex lg:gap-10 sm:gap-x-10 cursor-pointer">
             {NavTabs.map((tab) => (
               <li
                 key={tab.id}

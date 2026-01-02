@@ -7,9 +7,11 @@ const Footer = () => {
   return (
     <div>
       <footer className="bg-[#C1DCDC] flex justify-between min-h-[400px] ">
-        <div className=" flex flex-col gap-6 justify-center items-center ml-[5%]">
-          <h3 className="text-3xl text-black font-bold">GREENMIND</h3>
-          <p className="text-gray-400 text-[20px] max-w-[50%]">
+        <div className=" flex flex-col gap-6 justify-center items-center ml-[5%] ">
+          <h3 className="md:text-3xl sm:text-2xl text-black font-bold">
+            GREENMIND
+          </h3>
+          <p className="text-gray-400 md:text-[20px] sm:text-[15px] max-w-[50%]">
             We help you find your dream plant
           </p>
           <div className="flex gap-5">
@@ -33,26 +35,40 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="  justify-end grid grid-cols-3 gap-30 mr-[10%] mt-[4%]  ">
+        <div className="  justify-end grid grid-cols-3 md:gap-30 sm:gap-5 md:mr-[10%] mt-[4%] sm:mr-[1%]  ">
           <div className="flex flex-col gap-5">
-            <h3 className="text-black font-bold text-[20px]">Information</h3>
-            <p className="text-gray-400 text-[20px]">About</p>
-            <p className="text-gray-400 text-[20px]">Product</p>
-            <p className="text-gray-400 text-[20px]">Blog</p>
+            <h3 className="text-black font-bold md:text-[20px] sm:text-[15px]">
+              Information
+            </h3>
+            <p className="text-gray-400 md:text-[20px] sm:text-[15px]">About</p>
+            <p className="text-gray-400 md:text-[20px] sm:text-[15px]">Product</p>
+            <p className="text-gray-400 md:text-[20px] sm:text-[15px]">Blog</p>
           </div>
 
           <div className="flex flex-col gap-5">
-            <h3 className="text-black font-bold text-[20px]">Company</h3>
-            <p className="text-gray-400 text-[20px]">Community</p>
-            <p className="text-gray-400 text-[20px]">Career</p>
-            <p className="text-gray-400 text-[20px]">Our story</p>
+            <h3 className="text-black font-bold md:text-[20px] sm:text-[15px]">
+              Company
+            </h3>
+            <p className="text-gray-400 md:text-[20px] sm:text-[15px]">
+              Community
+            </p>
+            <p className="text-gray-400 md:text-[20px] sm:text-[15px]">Career</p>
+            <p className="text-gray-400 md:text-[20px] sm:text-[15px]">
+              Our story
+            </p>
           </div>
 
           <div className="flex flex-col gap-5">
-            <h3 className="text-black font-bold text-[20px]">Contact</h3>
-            <p className="text-gray-400 text-[20px]">Getting Started</p>
-            <p className="text-gray-400 text-[20px]">Pricing</p>
-            <p className="text-gray-400 text-[20px]">Resources</p>
+            <h3 className="text-black font-bold md:text-[20px] sm:text-[15px]">
+              Contact
+            </h3>
+            <p className="text-gray-400 md:text-[20px] sm:text-[15px]">
+              Getting Started
+            </p>
+            <p className="text-gray-400 md:text-[20px] sm:text-[15px]">Pricing</p>
+            <p className="text-gray-400 md:text-[20px] sm:text-[15px]">
+              Resources
+            </p>
           </div>
         </div>
       </footer>

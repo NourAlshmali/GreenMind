@@ -6,39 +6,53 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Categories = () => {
   return (
-    <div className="bg-white w-full h-screen">
-      <h1 className="text-black font-bold text-5xl flex justify-center items-center">
+    <div className="bg-white w-full py-20">
+      <h1 className="text-black font-bold text-3xl md:text-5xl flex justify-center items-center">
         Categories
       </h1>
-      <p className="text-gray-400 text-2xl flex justify-center items-center mt-6">
+
+      <p className="text-gray-400 text-lg md:text-2xl flex justify-center items-center mt-6 text-center px-4">
         Find what you are looking for
       </p>
-      <div className="w-full h-[95vh] bg-[#C1DCDC] mt-[3%] flex justify-center items-center">
-        <div className=" grid grid-cols-3 flex justify-center items-center gap-50">
-          <div className="mb-90 flex flex-col justify-center items-center">
-            <img src={img1} alt="plant image" />
-            <h3 className="text-black mt-5 text-2xl font-bold ">
+
+      <div className="w-full bg-[#C1DCDC] mt-10 py-20 flex justify-center items-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:gap-100 md:gap-10 px-4  w-full">
+          <div className="flex flex-col justify-center items-center">
+            <img
+              src={img1}
+              alt="plant image"
+              className=" lg:w-[600px] md:w-[600px] sm:w-[500px]"
+            />
+            <h3 className="text-black mt-5 text-xl md:text-2xl font-bold text-center">
               Natural Plants
             </h3>
           </div>
 
           <div className="flex flex-col justify-center items-center">
-            <img src={img2} alt="plant image" />
-            <h3 className="text-black mt-5 text-2xl font-bold">
+            <img
+              src={img2}
+              alt="plant image"
+              className=" lg:w-[600px] md:w-[600px] sm:w-[500px]"
+            />
+            <h3 className="text-black mt-5 text-xl md:text-2xl font-bold text-center">
               Plant Accessories
             </h3>
-            <p className="text-gray-400 max-w-[80%] text-[18px]">
+            <p className="text-gray-400 text-center max-w-[80%] text-base mt-3">
               Horem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
-            <button className="bg-white w-[150px] h-[45px] mt-5 rounded-2xl cursor-pointer items-center justify-center  text-[20px] text-black flex gap-0">
+            <button className="bg-white w-[150px] h-[45px] mt-5 rounded-2xl cursor-pointer flex items-center justify-center text-base md:text-lg text-black gap-1">
               Explore
-              <IoIosArrowRoundForward className="flex justify-center size-[30px] pt-1" />{" "}
+              <IoIosArrowRoundForward className="text-2xl" />
             </button>
           </div>
 
-          <div className="mb-90 flex flex-col justify-center items-center">
-            <img src={img3} alt="plant image" />
-            <h3 className="text-black mt-5 text-2xl font-bold">
+          <div className="flex flex-col justify-center items-center ">
+            <img
+              src={img3}
+              alt="plant image"
+              className=" lg:w-[600px] md:w-[600px] sm:w-[500px] "
+            />
+            <h3 className="text-black mt-5 text-xl md:text-2xl font-bold text-center">
               Artificial Plants
             </h3>
           </div>

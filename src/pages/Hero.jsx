@@ -25,12 +25,12 @@ const Hero = () => {
             <h3 className="text-2xl">customers </h3>
           </div>
         </div>
-        <div className="absolute w-[30%] left-[5%] md:bottom-[25%] lg:bottom-[20%] ">
+        <div className="absolute w-[30%] left-[5%] md:bottom-[25%] lg:bottom-[20%] sm:bottom-80 ">
           <div className="relative">
             <input
               type="text"
               placeholder="what are you looking for?"
-              className="h-15 lg:w-full md:w-[300px] sm:w-[150px] md:placeholder:text-[16px] sm:placeholder:text-[10px]
+              className="h-15 lg:w-full md:w-[300px] sm:w-[200px]  md:placeholder:text-[16px] sm:placeholder:text-[10px]
                bg-white rounded-2xl focus:border-2 border-white placeholder:pl-6 text-[20px]"
             />
             <div className="absolute top-3 lg:left-110 md:left-60 bg-[#C1DCDC] w-10 h-10 flex items-center justify-center rounded-full">
@@ -58,7 +58,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="absolute lg:right-[20%] lg:bottom-22">
+        <div className="absolute lg:right-[20%] lg:bottom-22 ">
           <div className="relative w-[450px] h-[389px]">
             <svg
               viewBox="0 0 450 389"

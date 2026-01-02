@@ -1,6 +1,6 @@
 import React from "react";
 import { FaMagnifyingGlass } from "react-icons/fa6";
-import plant from "/public/assets/img/planet.png";
+import plant from "../assets/img/planet.png";
 
 const Hero = () => {
   return (

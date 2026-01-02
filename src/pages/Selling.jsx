@@ -2,9 +2,9 @@ import React from "react";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import SellingCard from "../components/SellingCard";
 
-import planet1 from "/public/assets/img/p1.png";
-import planet2 from "/public/assets/img/p2.png";
-import planet3 from "/public/assets/img/p3.png";
+import planet1 from "../assets/img/p1.png";
+import planet2 from "../assets/img/p2.png";
+import planet3 from "../assets/img/p3.png";
 
 const Selling = () => {
   return (

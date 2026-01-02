@@ -1,7 +1,7 @@
 import React from "react";
-import img1 from "/assets/img/c1.png";
-import img2 from "/assets/img/c2.png";
-import img3 from "/assets/img/c3.png";
+import img1 from "../assets/img/c1.png";
+import img2 from "../assets/img/c2.png";
+import img3 from "../assets/img/c3.png";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Categories = () => {

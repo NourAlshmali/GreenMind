@@ -1,6 +1,6 @@
 import ReviewCard from "../components/ReviewCard";
-import img1 from "/assets/img/person1.png";
-import img2 from "/assets/img/person2.png";
+import img1 from "../assets/img/person1.png";
+import img2 from "../assets/img/person2.png";
 
 const Reviews = () => {
   return (

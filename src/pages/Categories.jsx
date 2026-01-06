@@ -16,12 +16,12 @@ const Categories = () => {
       </p>
 
       <div className="w-full bg-[#C1DCDC] mt-10 py-20 flex justify-center items-center">
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:gap-100 md:gap-10 px-4  w-full">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:gap-24 md:gap-10 px-4  w-full">
           <div className="flex flex-col justify-center items-center">
             <img
               src={img1}
               alt="plant image"
-              className=" lg:w-[600px] md:w-[600px] sm:w-[500px]"
+              className=" lg:w-[37.5rem] md:w-[37.5rem] sm:w-[31.25rem]"
             />
             <h3 className="text-black mt-5 text-xl md:text-2xl font-bold text-center">
               Natural Plants
@@ -32,7 +32,7 @@ const Categories = () => {
             <img
               src={img2}
               alt="plant image"
-              className=" lg:w-[600px] md:w-[600px] sm:w-[500px]"
+              className=" lg:w-[37.5rem] md:w-[37.5rem] sm:w-[31.25rem]"
             />
             <h3 className="text-black mt-5 text-xl md:text-2xl font-bold text-center">
               Plant Accessories
@@ -40,7 +40,7 @@ const Categories = () => {
             <p className="text-gray-400 text-center max-w-[80%] text-base mt-3">
               Horem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
-            <button className="bg-white w-[150px] h-[45px] mt-5 rounded-2xl cursor-pointer flex items-center justify-center text-base md:text-lg text-black gap-1">
+            <button className="bg-white w-36 h-12 mt-5 rounded-2xl cursor-pointer flex items-center justify-center text-base md:text-lg text-black gap-1">
               Explore
               <IoIosArrowRoundForward className="text-2xl" />
             </button>
@@ -50,7 +50,7 @@ const Categories = () => {
             <img
               src={img3}
               alt="plant image"
-              className=" lg:w-[600px] md:w-[600px] sm:w-[500px] "
+              className=" lg:w-[37.5rem] md:w-[37.5rem] sm:w-[31.25rem] "
             />
             <h3 className="text-black mt-5 text-xl md:text-2xl font-bold text-center">
               Artificial Plants

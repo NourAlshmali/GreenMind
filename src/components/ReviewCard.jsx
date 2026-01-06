@@ -18,7 +18,7 @@ const ReviewCard = ({ text, image, name, job, rating }) => {
           <img
             src={image}
             alt={name}
-            className="lg:w-[200px] lg:h-auto md:w-12 md:h-12 sm:w-40 sm:h-40 "
+            className="lg:w-[12.5rem] lg:h-auto md:w-12 md:h-12 sm:w-40 sm:h-40 "
           />
           <div>
             <h2 className="text-lg sm:text-xl md:text-2xl text-black">

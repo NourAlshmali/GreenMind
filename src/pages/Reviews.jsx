@@ -5,7 +5,7 @@ import img2 from "../assets/img/person2.png";
 const Reviews = () => {
   return (
     <div className="w-full h-[80vh] mt-[10%] flex flex-col">
-      <h1 className="font-extrabold max-w-[30%] text-black text-4xl ml-30 mb-10">
+      <h1 className="font-extrabold max-w-[30%] text-black text-4xl ml-12 mb-10">
         What customers say about GREEMIND?
       </h1>
 

@@ -6,7 +6,7 @@ const SellingCard = ({ image, title, price }) => {
       <img
         src={image}
         alt={title}
-        className="lg:w-[75%] md:w-[500px] sm:w-[450px]"
+        className="lg:w-[75%] md:w-[31.25rem] sm:w-[28.125rem]"
       />
       <h4 className="text-black lg:text-3xl sm:text-2xl">{title}</h4>
       <h5 className="text-gray-400 lg:text-2xl sm:text-[16px]">{price}</h5>

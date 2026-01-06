@@ -15,7 +15,7 @@ const Footer = () => {
             We help you find your dream plant
           </p>
           <div className="flex gap-5">
-            <div className="bg-[C1DCDC] border rounded-[50%] border-[#1E1E1E80] w-[50px] h-[50px] flex justify-center items-center">
+            <div className="bg-[#C1DCDC] border rounded-full border-[#1E1E1E80] w-[50px] h-[50px] flex justify-center items-center">
               {" "}
               <FaFacebookF className="text-[20px]" />
             </div>
@@ -41,7 +41,9 @@ const Footer = () => {
               Information
             </h3>
             <p className="text-gray-400 md:text-[20px] sm:text-[15px]">About</p>
-            <p className="text-gray-400 md:text-[20px] sm:text-[15px]">Product</p>
+            <p className="text-gray-400 md:text-[20px] sm:text-[15px]">
+              Product
+            </p>
             <p className="text-gray-400 md:text-[20px] sm:text-[15px]">Blog</p>
           </div>
 
@@ -52,7 +54,9 @@ const Footer = () => {
             <p className="text-gray-400 md:text-[20px] sm:text-[15px]">
               Community
             </p>
-            <p className="text-gray-400 md:text-[20px] sm:text-[15px]">Career</p>
+            <p className="text-gray-400 md:text-[20px] sm:text-[15px]">
+              Career
+            </p>
             <p className="text-gray-400 md:text-[20px] sm:text-[15px]">
               Our story
             </p>
@@ -65,7 +69,9 @@ const Footer = () => {
             <p className="text-gray-400 md:text-[20px] sm:text-[15px]">
               Getting Started
             </p>
-            <p className="text-gray-400 md:text-[20px] sm:text-[15px]">Pricing</p>
+            <p className="text-gray-400 md:text-[20px] sm:text-[15px]">
+              Pricing
+            </p>
             <p className="text-gray-400 md:text-[20px] sm:text-[15px]">
               Resources
             </p>

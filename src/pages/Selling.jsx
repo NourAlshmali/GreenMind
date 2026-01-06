@@ -19,9 +19,9 @@ const Selling = () => {
             Easiest way to healthy life by buying your favorite plants
           </p>
 
-          <button className="bg-[#C1DCDC] w-[150px] h-[45px] rounded-2xl flex items-center justify-center text-[18px] text-black">
+          <button className="bg-[#C1DCDC] w-40 h-12 rounded-2xl flex items-center justify-center text-lg text-black">
             See More
-            <IoIosArrowRoundForward className="size-[30px]" />
+            <IoIosArrowRoundForward className="size-7.5" />
           </button>
         </div>
 
